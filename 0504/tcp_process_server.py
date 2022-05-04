@@ -19,4 +19,5 @@ while 1:
     except:
         c_socket.send("try again".encode())
     else:
+        print(resp)
         c_socket.send(resp.encode())
